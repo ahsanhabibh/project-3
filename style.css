@@ -1,0 +1,222 @@
+/* header css */
+.top-header {}
+.logo-img {
+    width: 50px;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Work Sans', sans-serif;
+
+}
+img {
+    max-width: 100%;
+}
+.navbar .fontbold {
+    font-weight: 500;
+}
+/* slider-section */
+.slider-section {
+    background: url(img/mbr-10.jpg) no-repeat center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+.slider-caption h4 {
+    margin-bottom: 25px;
+}
+.slider-caption h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.slider-caption .slider-btn {
+    padding: 7px 17px;
+    outline: none;
+    border: none;
+    font-size: 23px;
+}
+
+/* about-section */
+.about-section {
+    background: #f7f9ff;
+}
+.about-text-left {
+    margin-top: 130px;
+}
+.about-text-left .lead {
+    font-size: 25px;
+    line-height: 2.8rem;
+
+}
+.number-item .h2 {
+    font-size: 50px;
+}
+.number-item .text-muted {
+    font-size: 20px;
+}
+
+/* feature section */
+.feature-title {
+    text-align: center;
+    padding: 60px;
+}
+.feature-title h2 {
+    font-size: 45px;
+}
+.feature-title h3 {
+    color: #767676;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-text-sec {
+    width: 60%;
+    padding: 25px;
+}
+.left-img-sec img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+.left-img-sec .resize-img {
+    width: 243px;
+}
+/* portfolio section */
+.portfolio-section {}
+.portfolio-section a {
+    position: relative;
+    display: block;
+}
+.portfolio-section a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223, .7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfolio-item:hover a::after {
+    opacity: 1;
+    visibility: visible;
+}
+.min-section-bg {
+    background-color: #f7f9ff;
+}
+/* pricing section */
+.pricing-title {
+    text-align: center;
+    padding: 40px;
+}
+.pricing-title h1 {
+    font-size: 58px;
+    line-height: 63px;
+}
+.pricing-title p {
+    font-size: 26px;
+    color: #767676;
+    line-height: 38px;
+    margin-top: 26px;
+}
+.pricing-item {
+    background: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.pricing-item h1 {}
+.pricing-item h5 {
+    color: #767676;
+    font-size: 21px;
+    padding-top: 15px;
+}
+.pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+}
+.pricing-item ul li {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #767676;
+}
+.pricing-item ul span {
+    color: #6278df;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 40px;
+}
+
+.pricing-item-btn {}
+.pricing-item-btn a {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.same-text-color {
+    color: #767676;
+}
+/* testimonial section */
+.author-info {
+    width: 220px;
+    margin: auto;
+}
+.author-info img {
+    width: 80px;
+    margin-right: 20px;
+}
+.user-details {
+    text-align: left;
+    position: relative;
+    top: 12px;
+}
+/* about section */
+.about-item {
+    margin-top: 90px;
+}
+.about-item .card {}
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+/* contact us  */
+.contact-form-div .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 40px;
+}
+/* about-section-bottom */
+.about-section-bottom {}
+.about-section-bottom .img-resize {
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+/* footer-section */
+.footer-section .copyright-text {
+    font-size: 20px;
+    color: #000000;
+}
